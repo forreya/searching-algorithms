@@ -6,20 +6,14 @@
 </p>
 
 ## Description
-Highly optimized and performant search algorithms for binary search trees (BST), graphs, and arrays. Each algorithm is implemented in both **C++** and **Python3**. Each implementation is accompanied with clear explanations of the underlying logic and performance-optimizing techniques, along with their applications.
+Highly optimized and performant search algorithms for binary search trees (BST), graphs, and arrays. Each algorithm is implemented in both **C++** and **Python** and is accompanied with clear explanations of the underlying logic and performance-optimizing techniques, along with their applications.
 
 ## Table of Contents
-  - [Arrays](#arrays)
-  - [Binary Search Tree (BST)](#binary-search-tree-bst)
-  - [Graphs](#graphs)
-    - [General Graph Algorithms](#general-graph-algorithms)
-    - [Directed Graphs](#for-directed-graphs)
-    - [Weighted Graphs](#for-weighted-graphs)
-    - [Unweighted Graphs](#for-unweighted-graphs)
-    - [Special Cases](#special-cases)
-- [Additional Concepts](#additional-concepts)
+- [Arrays](#arrays)
+- [Binary Search Tree (BST)](#binary-search-tree-bst)
+- [Graphs](#graphs)
+- [Additional](#additional)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Arrays
 - [ ] Linear Search
