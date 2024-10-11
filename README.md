@@ -9,7 +9,6 @@
 Highly optimized and performant search algorithms for binary search trees (BST), graphs, and arrays. Each algorithm is implemented in both **C++** and **Python3**. Each implementation is accompanied with clear explanations of the underlying logic and performance-optimizing techniques, along with their applications.
 
 ## Table of Contents
-- [Algorithms](#algorithms)
   - [Arrays](#arrays)
   - [Binary Search Tree (BST)](#binary-search-tree-bst)
   - [Graphs](#graphs)
@@ -22,9 +21,7 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 - [Contributing](#contributing)
 - [License](#license)
 
-## Algorithms
-
-### Arrays
+## Arrays
 - [ ] Linear Search
 - [ ] Binary Search
 - [ ] Binary Search w/ Recursion
@@ -35,7 +32,7 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 - [ ] Interpolation Search (for uniformly distributed sorted arrays)
 - [ ] Fibonacci Search
 
-### Binary Search Tree (BST)
+## Binary Search Tree (BST)
 - [ ] Binary Search
 - [ ] Inserting a Node
 - [ ] Deleting a Node
@@ -49,9 +46,9 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 - [ ] Find Successor/Predecessor
 - [ ] Balancing BST (e.g., AVL Tree, Red-Black Tree)
 
-### Graphs
+## Graphs
 
-#### General Graph Algorithms
+### General Graph Algorithms
 - [ ] Searching for a Specific Vertex
 - [ ] Depth-First Search (DFS)
   - [ ] Pre-Order Traversal
@@ -61,21 +58,21 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 - [ ] Cycle Detection (for Cyclic Graphs)
 - [ ] Connected Components (using DFS/BFS)
 
-#### Directed Graphs
+### Directed Graphs
 - [ ] DFS for Directed Graphs
 - [ ] Topological Sort (for Directed Acyclic Graphs)
-- [ ] Strongly Connected Components (Kosaraju’s / Tarjan's algorithms)
+- [ ] Strongly Connected Components (Kosaraju’s/Tarjan's algorithms)
 
-#### Weighted Graphs
+### Weighted Graphs
 - [ ] Dijkstra's Algorithm (shortest path)
 - [ ] Bellman-Ford Algorithm (handles negative weights)
 - [ ] Floyd-Warshall Algorithm (for all-pairs shortest path)
 - [ ] A* Search Algorithm (heuristic-based)
 
-#### Unweighted Graphs
+### Unweighted Graphs
 - [ ] BFS/DFS (for shortest path and traversal)
 
-#### Special Cases (Might Not Do These)
+### Special Cases (Might Not Do These)
 - [ ] Minimum Spanning Tree:
   - [ ] Prim's Algorithm
   - [ ] Kruskal's Algorithm
@@ -83,7 +80,7 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 - [ ] Eulerian Path/Circuit
 - [ ] Hamiltonian Path
 
-### Additional (Also Might Not Do These)
+## Additional
 - [ ] Trie Search (prefix-based searching)
 
 ## Contributing
