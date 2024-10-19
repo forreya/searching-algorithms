@@ -16,7 +16,9 @@ class InputArrayGenerator:
 	def __init__():
 		pass
 			
+	@staticmethod
 	def choose_input_option():
+		print('hello')
 		print_separator()
 		print("Please select an input method:")
 		for key, val in InputArrayGenerator.OPTIONS.items():
@@ -29,22 +31,39 @@ class InputArrayGenerator:
 			print(f"Please input a number between {option_keys[0]}-{option_keys[-1]}...")
 			time.sleep(1)
 			InputArrayGenerator.choose_input_option()
-		
-	def handle_choice():
-		pass
+		else:
+			try:
+				return InputArrayGenerator.handle_choice(int(choice))
+			except TypeError as error:
+				print(error)
+				return False
 
+	@staticmethod
+	def handle_choice(choice):
+		print_separator()
+		match choice:
+			case 1:
+				return InputArrayGenerator.get_manual_input()
+
+	@staticmethod
 	def get_manual_input():
 		arr = input("Input Array of Numbers (Seperated by Commas): ").split(",")
 		target = input("Target Value: ")
-		return arr, target
+		if not target.isdigit():
+			print_separator()
+			raise TypeError(f"{target} is not an integer...")
+		arr = [int(num) for num in arr if num.isdigit()]
+		print((arr, target))
+		return(arr, int(target))
 
+	@staticmethod
 	def get_random_array():
 		pass
 
+	@staticmethod
 	def get_null_value():
 		pass
 
+	@staticmethod
 	def get_empty_array():
 		pass
-		
-InputArrayGenerator.choose_input_option()
