@@ -16,7 +16,7 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 - [Contributing](#contributing)
 
 ## Arrays
-- [ ] Linear Search
+- [x] Linear Search
 - [ ] Binary Search
 - [ ] Binary Search w/ Recursion
 - [ ] Binary Search w/ Duplicates
