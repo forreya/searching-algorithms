@@ -1,11 +1,5 @@
 <h1 align="center">Linear Search</h1>
 
-## Table of Contents
-- [Performance](#performance)
-- [How It Works](#how-it-works)
-- [Advantages](#advantages)
-- [Disadvantages](#disadvantages)
-
 ## Performance
 - **Time Complexity**: O(n) - Scans all elements one by one, so in the worst case it has to scan all `n` elements.
 - **Space Complexity**: O(1) - No other data structures are needed for storage.

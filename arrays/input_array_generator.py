@@ -8,9 +8,10 @@ class InputArrayGenerator:
 	OPTIONS = {
 		"1": "Manual Input",
 		"2": "Random Array (Random Length)",
-		"3": "Null Value",
-		"4": "Empty Array",
-		"5": "Quit",
+		"3": "Sorted Array (Random Length)",
+		"4": "Null Value",
+		"5": "Empty Array",
+		"6": "Quit",
 	}
 	
 	def __init__():
@@ -33,7 +34,11 @@ class InputArrayGenerator:
 			InputArrayGenerator.choose_input_option()
 		else:
 			try:
-				return InputArrayGenerator.handle_choice(int(choice))
+				ret = InputArrayGenerator.handle_choice(int(choice))
+				print_separator()
+				print(f"Input Array: {str(ret[0])}")
+				print(f"Target Value: {str(ret[1])}")
+				return ret
 			except TypeError as error:
 				print(error)
 				return False
@@ -53,7 +58,6 @@ class InputArrayGenerator:
 			print_separator()
 			raise TypeError(f"{target} is not an integer...")
 		arr = [int(num) for num in arr if num.isdigit()]
-		print((arr, target))
 		return(arr, int(target))
 
 	@staticmethod
