@@ -1,4 +1,4 @@
-<h1 align="center">Binary Search</h1>
+<h1 align="center">Binary Search (Iterative)</h1>
 
 ## Performance
 - **Time Complexity**: O(logn) - Binary search is highly efficient because it eliminates half of the elements from consideration with each iteration.

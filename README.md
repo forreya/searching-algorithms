@@ -17,8 +17,8 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 
 ## Arrays
 - [x] Linear Search
-- [x] Binary Search
-- [ ] Binary Search w/ Recursion
+- [x] Binary Search (Iterative)
+- [x] Binary Search (Recursive)
 - [ ] Binary Search w/ Duplicates
 - [ ] Ternary Search
 - [ ] Jump Search (for sorted arrays)
