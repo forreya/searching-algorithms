@@ -1,4 +1,4 @@
-from arrays.input_array_generator import InputArrayGenerator
+from input_array_generator import InputArrayGenerator
 
 def binary_search(arr, target):
 	left, right = 0, len(arr)-1
@@ -14,4 +14,4 @@ def binary_search(arr, target):
 
 res = InputArrayGenerator.choose_input_option()
 if res:
-	print(binary_search(res[0], res[1]))
+	print(f"Result: {binary_search(res[0], res[1])}")
