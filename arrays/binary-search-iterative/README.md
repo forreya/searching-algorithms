@@ -33,7 +33,7 @@ When implementing binary search, it’s important to calculate the middle index 
 
 - Option 2 avoids this overflow issue by computing the distance between left and right and dividing it by 2 before adding it to left. This approach ensures the value always stays within a safe range:
 	- `(right - left)` is always smaller or equal to right.
-	- Dividing `(right - left)` by 2 before being added to left ensures mid remains within left & right.
+	- Dividing `(right - left)` by 2 before being added to left ensures mid always remains within left & right.
 
 There is a mathematical proof for this but we don't need to know this in detail.
 
