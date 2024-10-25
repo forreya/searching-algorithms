@@ -77,5 +77,8 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 ## Additional
 - [ ] Trie Search (prefix-based searching)
 
+## Note
+You need to add this project directory to your PYTHONPATH environmental variable for the imports to work correctly.
+
 ## Contributing
 If you have suggestions to optimize an algorithm, identify any issues, or improve the documentation, please fork the repository and submit a pull request. Alternatively, you can also open an issue to start a discussion about the potential improvement.
