@@ -1,4 +1,4 @@
-from input_array_generator import InputArrayGenerator
+from arrays.input_array_generator import InputArrayGenerator
 
 def binary_search_first_occurence(arr, target):
 	left, right = 0, len(arr) - 1

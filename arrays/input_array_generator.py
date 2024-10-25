@@ -1,9 +1,7 @@
 
 import time
 import random
-
-def print_separator():
-	print("------------------------------")
+from shared.print_seperator import print_separator
 
 def assertIsInteger(val):
 	if not val.isdigit():

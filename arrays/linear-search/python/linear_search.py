@@ -1,4 +1,4 @@
-from input_array_generator import InputArrayGenerator
+from arrays.input_array_generator import InputArrayGenerator
 
 def linear_search(arr, target):
 	for number in arr:
