@@ -1,7 +1,7 @@
 import random
 from bsts.generate_bst.print_bst import print_bst
 from bsts.generate_bst.tree_node import TreeNode
-from shared.print_seperator import print_separator
+from shared.misc import print_separator, assertIsInteger
 
 def generate_bst(size= 100, min_val= 0, max_val= 100):
 	if size == 0 or min_val > max_val:
@@ -31,3 +31,8 @@ def prompt_and_create_bst():
 	print("Your BST: ")
 	print_bst(bst)
 	return bst
+
+def get_target_val():
+	target = input("Target value: ")
+	assertIsInteger(target)
+	return int(target)

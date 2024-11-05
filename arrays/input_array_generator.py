@@ -1,12 +1,7 @@
 
 import time
 import random
-from shared.print_seperator import print_separator
-
-def assertIsInteger(val):
-	if not val.isdigit():
-		print_separator()
-		raise TypeError(f"'{val}' is not an integer...")
+from shared.misc import print_separator, assertIsInteger
 
 class InputArrayGenerator:
 	OPTIONS = {

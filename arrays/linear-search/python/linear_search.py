@@ -1,6 +1,6 @@
 from arrays.input_array_generator import InputArrayGenerator
 
-def linear_search(arr, target):
+def linear_search(arr, target) -> bool:
 	for number in arr:
 		if number == target:
 			return True

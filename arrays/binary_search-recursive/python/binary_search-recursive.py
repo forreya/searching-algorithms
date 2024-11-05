@@ -1,6 +1,6 @@
 from arrays.input_array_generator import InputArrayGenerator
 
-def binary_search_recursive(arr, target):
+def binary_search_recursive(arr, target) -> bool:
 	left, right = 0, len(arr) - 1
 
 	if len(arr) == 0:

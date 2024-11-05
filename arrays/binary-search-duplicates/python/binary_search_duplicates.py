@@ -1,6 +1,6 @@
 from arrays.input_array_generator import InputArrayGenerator
 
-def binary_search_first_occurence(arr, target):
+def binary_search_first_occurence(arr, target) -> bool:
 	left, right = 0, len(arr) - 1
 	result = -1
 	while right >= left:
@@ -14,7 +14,7 @@ def binary_search_first_occurence(arr, target):
 			right = middle - 1 
 	return result if result != -1 else False
 
-def binary_search_last_occurence(arr, target):
+def binary_search_last_occurence(arr, target) -> bool:
 	left, right = 0, len(arr) - 1
 	result = -1
 	while right >= left:

@@ -1,6 +1,6 @@
 from arrays.input_array_generator import InputArrayGenerator
 
-def binary_search_iterative(arr, target):
+def binary_search_iterative(arr, target) -> bool:
 	left, right = 0, len(arr)-1
 	while left <= right:
 		mid = left + (right - left) // 2
