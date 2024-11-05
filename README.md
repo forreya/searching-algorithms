@@ -27,7 +27,8 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 - [ ] Fibonacci Search
 
 ## Binary Search Tree (BST)
-- [ ] Binary Search
+- [x] Binary Search (Iterative)
+- [x] Binary Search (Recursive)
 - [ ] Inserting a Node
 - [ ] Deleting a Node
 - [ ] Find Minimum Node
