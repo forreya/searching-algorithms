@@ -15,6 +15,15 @@ Highly optimized and performant search algorithms for binary search trees (BST),
 - [Additional](#additional)
 - [Contributing](#contributing)
 
+## Setting Up
+To ensure Python can import modules correctly, add the following line to your shell configuration file (e.g., `.zshrc` or `.bashrc`):
+
+```
+export PYTHONPATH="[path_to_this_directory]"
+```
+
+This path allows python to know what the top-level directory is (in this case, searching-algorithms) so it can resolve these imports across the codebase.
+
 ## Arrays
 - [x] Linear Search
 - [x] Binary Search (Iterative)
