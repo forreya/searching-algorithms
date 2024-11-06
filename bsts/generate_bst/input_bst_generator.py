@@ -32,7 +32,7 @@ def prompt_and_create_bst():
 	print_bst(bst)
 	return bst
 
-def get_target_val():
+def get_val():
 	target = input("Target value: ")
 	assertIsInteger(target)
 	return int(target)

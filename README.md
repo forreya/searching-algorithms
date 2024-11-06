@@ -38,7 +38,8 @@ This path allows python to know what the top-level directory is (in this case, s
 ## Binary Search Tree (BST)
 - [x] Binary Search (Iterative)
 - [x] Binary Search (Recursive)
-- [ ] Inserting a Node
+- [x] Inserting a Node (Iterative)
+- [ ] Inserting a Node (Recursive)
 - [ ] Deleting a Node
 - [ ] Find Minimum Node
 - [ ] Find Maximum Node
