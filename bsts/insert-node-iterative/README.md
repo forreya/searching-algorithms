@@ -22,5 +22,5 @@ By avoiding recursion, this iterative approach maintains constant space usage, O
 Insertion time can degrade to O(n) if the BST is completely unbalanced, as we would have to traverse through every node.
 
 ## Notes
-- This function assumes that duplicates are not allowed.
+- This function assumes that duplicates are not allowed, as duplicate insertion returns without modifying the tree.
 - For optimal performance, it’s best to use this approach with self-balancing trees to prevent degradation in time complexity.
