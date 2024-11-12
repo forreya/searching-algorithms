@@ -39,8 +39,8 @@ This path allows python to know what the top-level directory is (in this case, s
 - [x] Binary Search (Iterative)
 - [x] Binary Search (Recursive)
 - [x] Inserting a Node (Iterative)
-- [ ] Inserting a Node (Recursive)
-- [ ] Deleting a Node
+- [x] Inserting a Node (Recursive)
+- [x] Deleting a Node (Recursive)
 - [ ] Find Minimum Node
 - [ ] Find Maximum Node
 - [ ] Depth-First Search (DFS):
