@@ -41,10 +41,10 @@ This path allows python to know what the top-level directory is (in this case, s
 - [x] Inserting a Node (Iterative)
 - [x] Inserting a Node (Recursive)
 - [x] Deleting a Node (Recursive)
-- [ ] Find Minimum Node
-- [ ] Find Maximum Node
+- [x] Find Minimum Node
+- [x] Find Maximum Node
 - [ ] Depth-First Search (DFS):
-  - [ ] Pre-Order Traversal
+  - [x] Pre-Order Traversal
   - [ ] In-Order Traversal
   - [ ] Post-Order Traversal
 - [ ] Breadth-First Search (BFS)
