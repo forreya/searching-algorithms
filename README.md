@@ -47,7 +47,7 @@ This path allows python to know what the top-level directory is (in this case, s
   - [x] Pre-Order Traversal
   - [x] In-Order Traversal
   - [x] Post-Order Traversal
-- [ ] Breadth-First Search (BFS)
+- [x] Breadth-First Search (BFS)
 - [ ] Find Successor/Predecessor
 - [ ] Balancing BST (e.g., AVL Tree, Red-Black Tree)
 
