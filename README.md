@@ -63,27 +63,31 @@ This path allows python to know what the top-level directory is (in this case, s
 - [ ] Cycle Detection (for Cyclic Graphs)
 - [ ] Connected Components (using DFS/BFS)
 
-### Directed Graphs
-- [ ] DFS for Directed Graphs
-- [ ] Topological Sort (for Directed Acyclic Graphs)
-- [ ] Strongly Connected Components (Kosaraju’s/Tarjan's algorithms)
-
-### Weighted Graphs
-- [ ] Dijkstra's Algorithm (shortest path)
+### Shortest Path Algorithms
+#### Unweighted Graphs
+- [ ] BFS for Shortest Path
+- [ ] DFS for Shortest Path
+#### Weighted Graphs
+- [ ] Dijkstra's Algorithm (handles non-negative weights)
 - [ ] Bellman-Ford Algorithm (handles negative weights)
-- [ ] Floyd-Warshall Algorithm (for all-pairs shortest path)
+- [ ] Floyd-Warshall Algorithm (all-pairs shortest path)
 - [ ] A* Search Algorithm (heuristic-based)
 
-### Unweighted Graphs
-- [ ] BFS/DFS (for shortest path and traversal)
+### Directed Graph Algorithms
+- [ ] Directed DFS (with applications like Cycle Detection)
+- [ ] Topological Sort (for Directed Acyclic Graphs)
+- [ ] Strongly Connected Components (Kosaraju’s/Tarjan's algorithms)
+- [ ] Transitive Closure (Warshall's Algorithm)
 
-### Special Cases (Might Not Do These)
+### Special Graph Problems (Might Not Do These)
 - [ ] Minimum Spanning Tree:
   - [ ] Prim's Algorithm
   - [ ] Kruskal's Algorithm
 - [ ] Bipartite Graph Check (using BFS/DFS)
 - [ ] Eulerian Path/Circuit
-- [ ] Hamiltonian Path
+  - [ ] Check for Eulerian Path/Circuit
+  - [ ] Find Eulerian Path (Hierholzer’s Algorithm)
+- [ ] Hamiltonian Path and Cycle
 
 ## Additional
 - [ ] Trie Search (prefix-based searching)
