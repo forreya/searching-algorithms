@@ -62,6 +62,10 @@ Pros:
 Cons:
 - Inefficient for operations like edge existence checks.
 
+## Maximum Number of Edges
+1. Undirected Graphs: V * (V-1) // 2
+2. Directed Graphs: V * (V-1)
+
 ## Performance Comparison: Adjacency Matrix vs Adjacency List
 1. Space Complexity:
 	- Adjacency Matrix: O(V²)
