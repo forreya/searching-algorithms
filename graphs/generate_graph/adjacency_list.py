@@ -1,3 +1,4 @@
+import random
 class AdjacencyList:
 	def __init__(self, weighted=False, directed=False):
 		self.internal_dict = {}
@@ -19,3 +20,6 @@ class AdjacencyList:
 			self.internal_dict[from_value].append(to_value)
 			if not self.directed:
 				self.internal_dict[to_value].append(from_value)
+	
+	def get_random_vertex(self):
+		return random.choice(list(self.internal_dict.keys()))

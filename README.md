@@ -43,7 +43,7 @@ This path allows python to know what the top-level directory is (in this case, s
 - [x] Deleting a Node (Recursive)
 - [x] Find Minimum Node
 - [x] Find Maximum Node
-- [ ] Depth-First Search (DFS):
+- [x] Depth-First Search (DFS):
   - [x] Pre-Order Traversal
   - [x] In-Order Traversal
   - [x] Post-Order Traversal
@@ -54,12 +54,11 @@ This path allows python to know what the top-level directory is (in this case, s
 ## Graphs
 
 ### General Graph Algorithms
-- [ ] Searching for a Specific Vertex
 - [ ] Depth-First Search (DFS)
   - [ ] Pre-Order Traversal
   - [ ] In-Order Traversal
   - [ ] Post-Order Traversal
-- [ ] Breadth-First Search (BFS)
+- [x] Breadth-First Search (BFS)
 - [ ] Cycle Detection (for Cyclic Graphs)
 - [ ] Connected Components (using DFS/BFS)
 

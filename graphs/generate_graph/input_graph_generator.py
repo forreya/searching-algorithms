@@ -3,7 +3,7 @@ from graphs.generate_graph.adjacency_list import AdjacencyList
 from graphs.generate_graph.print_adj_list import print_adj_list
 from shared.misc import print_separator
 
-def generate_adjacency_list(vertices=5, edges=5, weighted=False, directed=False, max_weight=10) -> AdjacencyList | None:
+def generate_adjacency_list(vertices=5, edges=5, weighted=False, directed=False, max_weight=10) -> AdjacencyList:
 	if (edges > vertices * (vertices - 1) // (2 if not directed else 1)):
 		raise ValueError(f"Too many edges for {vertices} vertices...")
 	
@@ -44,5 +44,3 @@ def prompt_and_create_adj_list():
 	print("Your Adjacency List: ")
 	print_adj_list(adj_list)
 	return adj_list
-
-prompt_and_create_adj_list()
