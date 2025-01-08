@@ -58,8 +58,8 @@ This path allows python to know what the top-level directory is (in this case, s
   - [x] Pre-Order Traversal
   - [x] Post-Order Traversal
 - [x] Breadth-First Search (BFS)
-- [ ] Cycle Detection (For Undirected Graphs)
-  - [ ] Union-Find (Disjoint Set Union)
+- [x] Cycle Detection (For Undirected Graphs)
+  - [x] Union-Find (Disjoint Set Union)
   - [x] DFS
 - [ ] Connected Components (using DFS/BFS)
 
