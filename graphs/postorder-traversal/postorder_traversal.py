@@ -1,7 +1,6 @@
 from graphs.generate_graph.input_graph_generator import prompt_and_create_adj_list
 from graphs.generate_graph.adjacency_list import AdjacencyList
 from shared.misc import print_separator
-from collections import deque
 
 def postorder_traversal_recursive(adj_list: AdjacencyList, curr: int, visited = None, ret_list = None) -> list:
 	if visited is None:

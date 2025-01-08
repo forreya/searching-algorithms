@@ -18,7 +18,7 @@ Sets are significantly faster when it comes to determining if an element is pres
 
 ## Use Cases
 1. Shortest Path in Unweighted Graphs: BFS guarantees the shortest path (minimum edges) from the source to any reachable vertex.
-2. Cycles in Undirected Graphs: BFS can detect cycles by checking if a node is visited twice during the traversal process (excluding its immediate parent if the graph is undirected).
+2. Cycles in Undirected Graphs: BFS can detect cycles by checking if a node is visited twice during the traversal process. It works by using the following logic: if you encounter a vertex that has already been visited and is not the immediate parent of the current vertex, a cycle exists.
 3. Level Order Traversal: BFS provides a level-by-level traversal in graph or tree-like structures such as company hierachies or file system traversal.
 
 ## Advantages

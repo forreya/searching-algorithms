@@ -58,7 +58,9 @@ This path allows python to know what the top-level directory is (in this case, s
   - [x] Pre-Order Traversal
   - [x] Post-Order Traversal
 - [x] Breadth-First Search (BFS)
-- [ ] Cycle Detection (for Cyclic Graphs)
+- [ ] Cycle Detection (For Undirected Graphs)
+  - [ ] Union-Find (Disjoint Set Union)
+  - [x] DFS
 - [ ] Connected Components (using DFS/BFS)
 
 ### Shortest Path Algorithms
@@ -72,7 +74,9 @@ This path allows python to know what the top-level directory is (in this case, s
 - [ ] A* Search Algorithm (heuristic-based)
 
 ### Directed Graph Algorithms
-- [ ] Directed DFS (with applications like Cycle Detection)
+- [ ] Cycle Detection (For Directed Graphs)
+  - [ ] Directed DFS
+  - [ ] Topological Sort
 - [ ] Topological Sort (for Directed Acyclic Graphs)
 - [ ] Strongly Connected Components (Kosaraju’s/Tarjan's algorithms)
 - [ ] Transitive Closure (Warshall's Algorithm)

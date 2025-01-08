@@ -1,7 +1,7 @@
 <h1 align="center">Postorder Traversal for General Graphs</h1>
 
 ## Performance
-- **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges. Each vertex is visited once, and all edges are processed at most once when traversing the neighbours of each vertex
+- **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges. Each vertex is visited once, and all edges are processed at most once when traversing the neighbours of each vertex.
 - **Space Complexity**: O(V), for storing the visited set. In the worst case, the recursion stack can grow to O(V) if the graph has a depth resembling a linked list. The explicit stack in the iterative approach also requires O(V) space in the worst case.
 
 ## Recursive Approach
@@ -36,8 +36,3 @@
 ### Disadvantages
 1. Requires explicit stack management, making the implementation more complex than the recursive approach.
 2. Memory usage for the stack can grow significantly in dense graphs.
-
-## DFS Traversals
-Inorder traversal doesn’t apply to general graphs because it relies on a binary tree’s left-to-right ordering of children. General graphs do not have an inherent "order" property. General graphs has two variants of DFS:
-1. Preorder DFS: Process the node before its neighbors.
-2. Postorder DFS: Process the node after all its neighbors.
