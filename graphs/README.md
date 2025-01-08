@@ -96,6 +96,11 @@ Cons:
 2. Heuristic Search: Algorithms like A*, which is a graph search algorithm that finds the shortest path between two vertices, use heuristics (a strategy that helps solve a problem faster by focusing on the most promising options) to reduce computation time for shortest-path problems.
 3. Graph Compression: Reduce memory usage by storing only relevant subgraphs or using compression techniques such as only storing the parts of a graph (subgraphs) relevant to a specific query or task.
 
+## DFS Traversals
+Inorder traversal doesn’t apply to general graphs because it relies on a binary tree’s left-to-right ordering of children. General graphs do not have an inherent "order" property. General graphs has two variants of DFS:
+1. Preorder DFS: Process the node before its neighbors.
+2. Postorder DFS: Process the node after all its neighbors.
+
 ## Terminology
 1. **Vertex:** The fundamental units in a graph, aka the nodes in a graph.
 2. **Edge:** A connection between two vertices.

@@ -54,10 +54,9 @@ This path allows python to know what the top-level directory is (in this case, s
 ## Graphs
 
 ### General Graph Algorithms
-- [ ] Depth-First Search (DFS)
-  - [ ] Pre-Order Traversal
-  - [ ] In-Order Traversal
-  - [ ] Post-Order Traversal
+- [x] Depth-First Search (DFS)
+  - [x] Pre-Order Traversal
+  - [x] Post-Order Traversal
 - [x] Breadth-First Search (BFS)
 - [ ] Cycle Detection (for Cyclic Graphs)
 - [ ] Connected Components (using DFS/BFS)
