@@ -61,7 +61,7 @@ This path allows python to know what the top-level directory is (in this case, s
 - [x] Cycle Detection (For Undirected Graphs)
   - [x] Union-Find (Disjoint Set Union)
   - [x] DFS
-- [ ] Connected Components (using DFS/BFS)
+- [x] Connected Components (For Undirected Graphs w/ DFS)
 
 ### Shortest Path Algorithms
 #### Unweighted Graphs
