@@ -1,4 +1,7 @@
-test = {'hello': [1,2,3,4,5]}
+list1 = [1]*3
+list2 = [2]*3
 
-for neighbour in test['hello']:
-	print(neighbour)
+list1 = list2[:]
+print(hex(id(list1)))
+print(hex(id(list2)))
+print(list1)

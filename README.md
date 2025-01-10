@@ -65,8 +65,8 @@ This path allows python to know what the top-level directory is (in this case, s
 
 ### Shortest Path Algorithms
 #### Unweighted Graphs
-- [ ] BFS for Shortest Path
-- [ ] DFS for Shortest Path
+- [x] BFS for Shortest Path
+- [x] DFS for Shortest Path
 #### Weighted Graphs
 - [ ] Dijkstra's Algorithm (handles non-negative weights)
 - [ ] Bellman-Ford Algorithm (handles negative weights)
