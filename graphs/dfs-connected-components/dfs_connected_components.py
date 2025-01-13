@@ -1,7 +1,3 @@
-from graphs.generate_graph.input_graph_generator import prompt_and_create_adj_list
-from graphs.generate_graph.adjacency_list import AdjacencyList
-from shared.misc import print_separator
-
 def dfs_recursive(adj_list: dict, vertex: int, component: list, visited: set) -> list:
 	component.append(vertex)
 

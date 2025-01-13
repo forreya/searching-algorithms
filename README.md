@@ -75,7 +75,7 @@ This path allows python to know what the top-level directory is (in this case, s
 
 ### Directed Graph Algorithms
 - [ ] Cycle Detection (For Directed Graphs)
-  - [ ] Directed DFS
+  - [x] Directed DFS
   - [ ] Topological Sort
 - [ ] Topological Sort (for Directed Acyclic Graphs)
 - [ ] Strongly Connected Components (Kosaraju’s/Tarjan's algorithms)

@@ -1,6 +1,5 @@
 from graphs.generate_graph.input_graph_generator import prompt_and_create_adj_list
 from graphs.generate_graph.adjacency_list import AdjacencyList
-from shared.misc import print_separator
 
 def dfs_detect_cycle_undirected(adj_list: AdjacencyList, curr: int, visited = None, parent = None) -> bool:
 	if visited is None:
