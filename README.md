@@ -74,10 +74,10 @@ This path allows python to know what the top-level directory is (in this case, s
 - [ ] A* Search Algorithm (heuristic-based)
 
 ### Directed Graph Algorithms
-- [ ] Cycle Detection (For Directed Graphs)
+- [x] Cycle Detection (For Directed Graphs)
   - [x] Directed DFS
-  - [ ] Topological Sort
-- [ ] Topological Sort (for Directed Acyclic Graphs)
+  - [x] Topological Sort
+- [x] Topological Sort (for Directed Acyclic Graphs)
 - [ ] Strongly Connected Components (Kosaraju’s/Tarjan's algorithms)
 - [ ] Transitive Closure (Warshall's Algorithm)
 
