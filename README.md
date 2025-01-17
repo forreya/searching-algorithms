@@ -83,7 +83,7 @@ This path allows python to know what the top-level directory is (in this case, s
 
 ### Special Graph Problems (Might Not Do These)
 - [ ] Minimum Spanning Tree:
-  - [ ] Prim's Algorithm
+  - [x] Prim's Algorithm
   - [ ] Kruskal's Algorithm
 - [ ] Bipartite Graph Check (using BFS/DFS)
 - [ ] Eulerian Path/Circuit
