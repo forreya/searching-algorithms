@@ -82,9 +82,9 @@ This path allows python to know what the top-level directory is (in this case, s
 - [ ] Transitive Closure (Warshall's Algorithm)
 
 ### Special Graph Problems (Might Not Do These)
-- [ ] Minimum Spanning Tree:
+- [x] Minimum Spanning Tree:
   - [x] Prim's Algorithm
-  - [ ] Kruskal's Algorithm
+  - [x] Kruskal's Algorithm
 - [ ] Bipartite Graph Check (using BFS/DFS)
 - [ ] Eulerian Path/Circuit
   - [ ] Check for Eulerian Path/Circuit
